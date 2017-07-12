@@ -3,7 +3,7 @@
   Name: kubernetes-cluster
   Provider: kubernetes
   Src: k8s-cluster.yaml
-- Account: google-project
+- Account: kuberlab-demo
   AutoDeploy: false
   Name: goolge-cluster
   Provider: google
