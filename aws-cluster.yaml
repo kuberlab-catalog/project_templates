@@ -18,7 +18,7 @@ instances:
     # Group name.
   - name: front
     # Instance count in the group.
-    count: 1
+    count: 2
     # Kubernetes node labels. Will be assigned to nodes (useful for nodeSelector). Type: dict
     labels:
       type: front
