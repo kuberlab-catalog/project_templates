@@ -28,7 +28,7 @@ instances:
     # Group volumes. Will be attached to each instance. Full spec see at http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_BlockDeviceMapping.html
     # Spec for Ebs object see at http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_EbsBlockDevice.html
     volumes:
-      - DeviceName: "/dev/xvda"
+      - DeviceName: "/dev/sda1"
         Ebs:
           DeleteOnTermination: true
           VolumeSize: 32
