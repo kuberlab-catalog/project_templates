@@ -14,6 +14,8 @@ master_disk_type: gp2
 master_disk_size: 16
 # Amazon instance groups. Needed for spawning kubernetes nodes (aka minions aka slaves) in cluster.
 kubernetes_version: v1.6.6
+nfs_storage:
+  storage_type: nfs-server
 instances:
     # Group name.
   - name: front
