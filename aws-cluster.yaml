@@ -26,7 +26,7 @@ instances:
       type: front
       class: fast1
     # Group instance type
-    instance_type: m3.medium
+    instance_type: t2.xlarge
     # Group volumes. Will be attached to each instance. Full spec see at http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_BlockDeviceMapping.html
     # Spec for Ebs object see at http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_EbsBlockDevice.html
     volumes:
