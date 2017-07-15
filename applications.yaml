@@ -22,3 +22,20 @@
     src: https://github.com/kuberlab-catalog/rabbitmq/
     version: 0.4.5
   name: rabbit
+- charts:
+  - clusters:
+    - amazon-cluster
+    configuration:
+      values:
+        image: kuberlab/mnist-ui:latest
+        mnist_mlapp: mnist-deep
+        mnist_model: mnist-deep-build-1
+        resources:
+          requests:
+            cpu: 50m
+            memory: 64Mi
+        serviceType: ClusterIP
+    name: mnist-ui
+    src: https://github.com/kuberlab-catalog/mnist-ui/
+    version: 1.0.0
+  name: mnist-ui
