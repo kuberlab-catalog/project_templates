@@ -1,0 +1,15 @@
+- Account: kubernetes-account-name
+  AutoDeploy: false
+  Name: kubernetes-cluster
+  Provider: kubernetes
+  Src: k8s-cluster.yaml
+- Account: kuberlab-demo
+  AutoDeploy: false
+  Name: goolge-cluster
+  Provider: google
+  Src: gce-cluster.yaml
+- Account: "788157744186"
+  AutoDeploy: false
+  Name: amazon-cluster
+  Provider: amazon
+  Src: aws-cluster.yaml
